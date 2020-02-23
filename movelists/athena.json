@@ -1,0 +1,56 @@
+{
+  "names": {
+    "default": {
+      "roman": "Athena Asamiya"
+    },
+    "japan": {
+      "roman": "Athena Asamiya",
+      "original": "麻宮 アテナ"
+    }
+  },
+  "images": {
+    "face": "athena.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "Psychic Throw",
+        "input": "{close}, :b: {or} :f:+[A]+[C]"
+      }
+    ],
+    "{commandMoves}": [
+      {
+        "name": "Phoenix Bomb",
+        "input": ":f:+[B]"
+      },
+      {
+        "name": "Phoenix Bomb (Air)",
+        "input": "{inAir}, :f:+[B]"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "Psycho Ball Attack",
+        "input": ":qcb:+[A] {or} [C]"
+      },
+      {
+        "name": "Psycho Sword",
+        "input": ":dp:+[A] {or} [C]"
+      },
+      {
+        "name": "Psycho Reflector",
+        "input": ":qcb:+[B] {or} [D]"
+      },
+      {
+        "name": "Phoenix Arrow",
+        "input": "{inAir}, :qcb:+[B] {or} [D]"
+      }
+    ],
+    "{desperationMoves}": [
+      {
+        "name": "Shining Crystal Bit",
+        "input": ":hcb::hcb:+[A] {or} [C] ({press} [A]+[C] {toCancel})"
+      }
+    ]
+  }
+}
