@@ -1,0 +1,57 @@
+{
+  "names": {
+    "default": {
+      "roman": "Clark"
+    },
+    "japan": {
+      "roman": "Clark",
+      "original": "クラーク・スティル"
+    }
+  },
+  "images": {
+    "face": "clark.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "Death Mountain Buster",
+        "input": "{close}, :b: {or} :f:+[A]+[C]"
+      },
+      {
+        "name": "Death Lake Driver",
+        "input": "{inAirAndClose}, :b: {or} :f:+[A]+[C]"
+      }
+    ],
+    "{commandMoves}": [
+      {
+        "name": "Jet Upper",
+        "input": ":f:+[A]"
+      },
+      {
+        "name": "Step",
+        "input": ":f:+[B]+[D]"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "Vulcan Punch",
+        "input": "{tap} [A] {or} [C] {repeatedly}"
+      },
+      {
+        "name": "Super Argentine Backbreaker",
+        "input": ":hcf:+[B] {or} [D]"
+      },
+      {
+        "name": "Flashing Elbow",
+        "input": ":qcf:+[A] {or} [C]",
+        "after": "Super Argentine Backbreaker"
+      }
+    ],
+    "{desperationMoves}": [
+      {
+        "name": "Ultra Argentine Backbreaker",
+        "input": ":hcb::hcb:+[A] {or} [C]"
+      }
+    ]
+  }
+}
