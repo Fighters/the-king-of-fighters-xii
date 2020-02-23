@@ -1,0 +1,86 @@
+{
+  "names": {
+    "default": {
+      "roman": "Chin"
+    },
+    "japan": {
+      "roman": "Chin",
+      "original": "鎮 元斎"
+    }
+  },
+  "images": {
+    "face": "chin.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "Hogeki",
+        "input": "{close}, :b: {or} :f:+[A]+[C]"
+      }
+    ],
+    "{commandMoves}": [
+      {
+        "name": "Uron Kochu",
+        "input": ":df:+[D] ({hold} [D] {toFeint})"
+      },
+      {
+        "name": "Zabantetsu",
+        "input": ":d::d:+[A] {or} [C]"
+      },
+      {
+        "name": "Getsuga Soshu",
+        "input": "[A] {or} [C]",
+        "after": "Zabantetsu"
+      },
+      {
+        "name": "Chokaro",
+        "input": ":d::d:+[B] {or} [D]"
+      },
+      {
+        "name": "Chokaro (Cancel)",
+        "input": "[B]+[D]",
+        "after": "Chokaro"
+      },
+      {
+        "name": "Nikikyaku",
+        "input": "[B] > [B]",
+        "after": "Chokaro"
+      },
+      {
+        "name": "Getsuga Soshu",
+        "input": "[C]",
+        "after": "Chokaro"
+      },
+      {
+        "name": "Forward Kick",
+        "input": "[D]",
+        "after": "Chokaro"
+      },
+      {
+        "name": "Zabantetsu",
+        "input": ":d:",
+        "after": "Chokaro"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "Suiho",
+        "input": ":qcb:+[B] {or} [D]"
+      },
+      {
+        "name": "Getsuga Chogeki",
+        "input": ":qcb:+[A] {or} [C]"
+      },
+      {
+        "name": "Nikikyaku",
+        "input": ":df:+[B] > [B]"
+      }
+    ],
+    "{desperationMoves}": [
+      {
+        "name": "Toku Hitenho",
+        "input": ":qcf::qcf:+[A] {or} [C]"
+      }
+    ]
+  }
+}
