@@ -1,0 +1,61 @@
+{
+  "names": {
+    "default": {
+      "roman": "Andy"
+    },
+    "japan": {
+      "roman": "Andy",
+      "original": "アンディ・ボガード"
+    }
+  },
+  "images": {
+    "face": "andy.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "Kakaekomi Nage",
+        "input": "{close}, :b: {or} :f:+[A]+[C]"
+      }
+    ],
+    "{commandMoves}": [
+      {
+        "name": "Hirate Uchi",
+        "input": ":f:+[A]"
+      },
+      {
+        "name": "Chain Combo",
+        "input": "{close}, [B] > [D]"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "Hishoken",
+        "input": ":qcb:+[A] {or} [C]"
+      },
+      {
+        "name": "Shoryudan",
+        "input": ":dp:+[A] {or} [C]"
+      },
+      {
+        "name": "Zaneiken",
+        "input": ":db::f:+[A] {or} [C]"
+      },
+      {
+        "name": "Kuhadan",
+        "input": ":hcf:+[B] {or} [D]"
+      },
+      {
+        "name": "Kuhadan (Brake)",
+        "input": "[B]+[D]",
+        "after": "Kuhadan"
+      }
+    ],
+    "{desperationMoves}": [
+      {
+        "name": "Cho Reppadan",
+        "input": ":qcb::db::qcf:+[B] {or} [D]"
+      }
+    ]
+  }
+}
