@@ -1,0 +1,58 @@
+{
+  "names": {
+    "default": {
+      "roman": "Duo Lon"
+    },
+    "japan": {
+      "roman": "Duo Lon",
+      "original": "デュオロン"
+    }
+  },
+  "images": {
+    "face": "duolon.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "Suishu - Shoko",
+        "input": "{close}, :b: {or} :f:+[A]+[C]"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "Genmuken",
+        "input": ":f:+[A]"
+      },
+      {
+        "name": "Air Genmuken",
+        "input": "{inAir}, :f:+[A]"
+      },
+      {
+        "name": "Genmukyaku",
+        "input": ":f:+[B]"
+      },
+      {
+        "name": "Air Genmukyaku",
+        "input": "{inAir}, :f:+[B]"
+      },
+      {
+        "name": "Shaki Juryu",
+        "input": "{close}, [C] > :qcf:+[C] > :qcf:+[C]"
+      },
+      {
+        "name": "Himokyaku - Zen",
+        "input": ":qcf:+[B] {or} [D]"
+      },
+      {
+        "name": "Himokyaku - Go",
+        "input": ":qcb:+[B] {or} [D]"
+      }
+    ],
+    "{desperationMoves}": [
+      {
+        "name": "Hiden - Genmu Bakko Shikon",
+        "input": ":qcb::db::qcf:+[A] {or} [C]"
+      }
+    ]
+  }
+}
