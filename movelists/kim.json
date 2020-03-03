@@ -1,0 +1,56 @@
+{
+  "names": {
+    "default": {
+      "roman": "Kim"
+    },
+    "japan": {
+      "roman": "Kim",
+      "original": "キム・カッファン"
+    }
+  },
+  "images": {
+    "face": "kim.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "Sakkyaku Nage",
+        "input": "{close}, :b: {or} :f:+[A]+[C]"
+      }
+    ],
+    "{commandMoves}": [
+      {
+        "name": "Neri Chagi",
+        "input": ":f:+[B]"
+      },
+      {
+        "name": "Twio Yop Chagi",
+        "input": ":f::f:+[D]"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "Hienzan",
+        "input": "{charge} :d: :u:+[B] {or} [D]"
+      },
+      {
+        "name": "Hangetsuzan",
+        "input": ":qcb:+[B] {or} [D]"
+      },
+      {
+        "name": "Air Hangetsuzan",
+        "input": "{inAir}, :qcb:+[B] {or} [D]"
+      },
+      {
+        "name": "Hishokyaku",
+        "input": "{inAir}, :qcf:+[B] {or} [D]"
+      }
+    ],
+    "{desperationMove}": [
+      {
+        "name": "Hououkyaku",
+        "input": ":qcb::db::f:+[B] {or} [D]"
+      }
+    ]
+  }
+}
