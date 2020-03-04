@@ -1,0 +1,51 @@
+{
+  "names": {
+    "default": {
+      "roman": "Raiden"
+    },
+    "japan": {
+      "roman": "Raiden",
+      "original": "ライデン"
+    }
+  },
+  "images": {
+    "face": "raiden.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "Neck Hanging",
+        "input": "{close}, :b: {or} :f:+[A]+[C]"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "Giant Bomb",
+        "input": "{charge} :db: :f:+[A] {or} [C]"
+      },
+      {
+        "name": "Giant Bomb (Feint)",
+        "input": "[B]+[D]",
+        "after": "Giant Bomb"
+      },
+      {
+        "name": "Dokugiri",
+        "input": ":qcb:+[A] {or} [C]"
+      },
+      {
+        "name": "Raiden Bomb",
+        "input": ":dp:+[A] {or} [C]"
+      },
+      {
+        "name": "Head Crush",
+        "input": ":hcf:+[B] {or} [D]"
+      }
+    ],
+    "{desperationMove}": [
+      {
+        "name": "Super Raiden Drop",
+        "input": ":hcb::hcb:+[A] {or} [C]"
+      }
+    ]
+  }
+}
