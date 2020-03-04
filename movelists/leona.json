@@ -1,0 +1,66 @@
+{
+  "names": {
+    "default": {
+      "roman": "Leona"
+    },
+    "japan": {
+      "roman": "Leona",
+      "original": "レオナ・ハイデルン"
+    }
+  },
+  "images": {
+    "face": "leona.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "Leona Crash",
+        "input": "{close}, :b: {or} :f:+[A]+[C]"
+      }
+    ],
+    "{commandMoves}": [
+      {
+        "name": "Strike Arch",
+        "input": ":f:+[B]"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "Moon Slasher",
+        "input": "{charge} :d: :u:+[A] {or} [C]"
+      },
+      {
+        "name": "Baltic Launcher",
+        "input": "{charge} :b: :f:+[A] {or} [C]"
+      },
+      {
+        "name": "Grand Saber",
+        "input": "{charge} :b: :f:+[B] {or} [D]"
+      },
+      {
+        "name": "Grand Saber (Roll)",
+        "input": "[B] {or} [D]",
+        "after": "Grand Saber"
+      },
+      {
+        "name": "Grand Saber (Attack)",
+        "input": "[A] {or} [C]",
+        "after": "Grand Saber"
+      },
+      {
+        "name": "Earring Bomb",
+        "input": ":qcb:+[B] {or} [D]"
+      },
+      {
+        "name": "X-Calibur",
+        "input": "{inAir}, :qcb:+[A] {or} [C]"
+      }
+    ],
+    "{desperationMove}": [
+      {
+        "name": "V-Slasher",
+        "input": "{inAir}, :qcf::df::qcb:+[A] {or} [C]"
+      }
+    ]
+  }
+}
