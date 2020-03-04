@@ -1,0 +1,48 @@
+{
+  "names": {
+    "default": {
+      "roman": "Ralf"
+    },
+    "japan": {
+      "roman": "Ralf",
+      "original": "ラルフ・ジョーンズ"
+    }
+  },
+  "images": {
+    "face": "ralf.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "Dynamite Headbutt",
+        "input": "{close}, :b: {or} :f:+[A]+[C]"
+      }
+    ],
+    "{commandMoves}": [
+      {
+        "name": "Jet Upper",
+        "input": ":df:+[A]"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "Vulcan Punch",
+        "input": "{tap} [A] {or} [C] {repeatedly}"
+      },
+      {
+        "name": "Burning Hammer",
+        "input": ":qcf:+[A] {or} [C]"
+      },
+      {
+        "name": "Dynamite Ralf Punch",
+        "input": ":qcb:+[A] {or} [C]"
+      }
+    ],
+    "{desperationMove}": [
+      {
+        "name": "Galactica Phantom",
+        "input": ":qcf::qcf:+[A] {or} [C]"
+      }
+    ]
+  }
+}
