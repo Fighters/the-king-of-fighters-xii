@@ -1,0 +1,72 @@
+{
+  "names": {
+    "default": {
+      "roman": "Robert"
+    },
+    "japan": {
+      "roman": "Robert",
+      "original": "ロバート・ガルシア"
+    }
+  },
+  "images": {
+    "face": "robert.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "Kubikiri Nage",
+        "input": "{close}, :b: {or} :f:+[A]+[C]"
+      }
+    ],
+    "{commandMoves}": [
+      {
+        "name": "Upper",
+        "input": ":f:+[A]"
+      },
+      {
+        "name": "Low Kick",
+        "input": ":f:+[B]"
+      },
+      {
+        "name": "Ushiro Geri",
+        "input": "{inAir}, [B]+[D]"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "Ryugekiken",
+        "input": ":qcf:+[A] {or} [C]"
+      },
+      {
+        "name": "Ryuga",
+        "input": ":dp:+[A] {or} [C]"
+      },
+      {
+        "name": "Geneikyaku",
+        "input": ":f::b::f:+[B] {or} [D]"
+      },
+      {
+        "name": "Ryuren Geneikyaku",
+        "input": ":hcf:+[D]"
+      },
+      {
+        "name": "Hien Shippukyaku",
+        "input": "{charge} :db: :f:+[B] {or} [D]"
+      },
+      {
+        "name": "Hien Ryujinkyaku",
+        "input": "{inAir} :qcb:+[B] {or} [D]"
+      }
+    ],
+    "{desperationMoves}": [
+      {
+        "name": "Ryuko Ranbu",
+        "input": ":qcf::df::qcb:+[A] {or} [C]"
+      },
+      {
+        "name": "Haoh Shokoken",
+        "input": ":f::hcf:+[A] {or} [C]"
+      }
+    ]
+  }
+}
