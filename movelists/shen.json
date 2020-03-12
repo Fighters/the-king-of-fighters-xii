@@ -1,0 +1,85 @@
+{
+  "names": {
+    "default": {
+      "roman": "Shen"
+    },
+    "japan": {
+      "roman": "Shen",
+      "original": "シェン・ウー"
+    }
+  },
+  "images": {
+    "face": "shen.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "Kokakugeki",
+        "input": "{close}, :b: {or} :f:+[A]+[C]"
+      }
+    ],
+    "{commandMoves}": [
+      {
+        "name": "Fusenkyaku",
+        "input": ":f:+[B]"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "Gekiken",
+        "input": ":qcf:+[A] {or} [C] ({hold} [C] {toCharge})"
+      },
+      {
+        "name": "Gekiken Cancel",
+        "input": "{whileDelaying}, {press} [B] {or} [D]",
+        "after": "Gekiken"
+      },
+      {
+        "name": "Tenrenken",
+        "input": ":qcf:+[B] {or} [D]",
+        "after": "Gekiken"
+      },
+      {
+        "name": "Tenrenken",
+        "input": ":qcf:+[B] {or} [D]"
+      },
+      {
+        "name": "Fukkogeki",
+        "input": ":qcb:+[A]"
+      },
+      {
+        "name": "Koryugeki",
+        "input": ":qcf:+[A]",
+        "after": "Fukkogeki"
+      },
+      {
+        "name": "Tenrenken",
+        "input": ":qcf:+[B] {or} [D]",
+        "after": "Fukkogeki"
+      },
+      {
+        "name": "Danken",
+        "input": "{close}, :hcb::f:+[C]"
+      },
+      {
+        "name": "Tenrenken",
+        "input": ":qcf:+[B] {or} [D]",
+        "after": "Danken"
+      }
+    ],
+    "{desperationMoves}": [
+      {
+        "name": "Zetsu! Gekiken",
+        "input": ":qcf::qcf:+[A] {or} [C]"
+      },
+      {
+        "name": "Tenrenken ~ Zetsu! Gekiken",
+        "input": ":qcf:+[B] {or} [D] > :qcf::qcf:+[A] {or} [C]"
+      },
+      {
+        "name": "Bakushin",
+        "input": "[C] > [A] > [B] > [C]"
+      }
+    ]
+  }
+}
