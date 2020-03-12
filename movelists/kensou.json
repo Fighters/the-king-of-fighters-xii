@@ -1,0 +1,50 @@
+{
+  "names": {
+    "default": {
+      "roman": "Kensou"
+    },
+    "japan": {
+      "roman": "Kensou",
+      "original": "椎 拳崇"
+    }
+  },
+  "images": {
+    "face": "kensou.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "Ryu Hosui",
+        "input": "{close}, :b: {or} :f:+[A]+[C]"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "Ryu Toda",
+        "input": ":qcb:+[A]"
+      },
+      {
+        "name": "Rintessho",
+        "input": ":qcb:+[C]"
+      },
+      {
+        "name": "Shikku Zanryukyaku",
+        "input": ":qcb:+[B] {or} [D]"
+      },
+      {
+        "name": "Ryu Bokko",
+        "input": ":dp:+[A] {or} [C]"
+      },
+      {
+        "name": "Ryugaku Sai",
+        "input": ":dp:+[B] {or} [D]"
+      }
+    ],
+    "{desperationMoves}": [
+      {
+        "name": "Shinryu Chokyudan",
+        "input": ":qcb::qcb:+[A] {or} [C]"
+      }
+    ]
+  }
+}
