@@ -1,0 +1,19 @@
+{
+  "buttons": {
+    "Arcade": [
+      { "image": "layout.webp" },
+      { "A": "A" },
+      { "B": "B" },
+      { "C": "C" },
+      { "D": "D" }
+    ],
+    "PlayStation 3": [
+      { "A": "Square" },
+      { "B": "X" },
+      { "C": "Triangle" },
+      { "D": "Circle" }
+    ],
+    "XBox 360": [{ "A": "X" }, { "B": "A" }, { "C": "Y" }, { "D": "B" }]
+  },
+  "hasUpgrades": false
+}
