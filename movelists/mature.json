@@ -1,0 +1,38 @@
+{
+  "names": {
+    "default": {
+      "roman": "Mature"
+    },
+    "japan": {
+      "roman": "Mature",
+      "original": "マチュア"
+    }
+  },
+  "images": {
+    "face": "mature.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "Death Blow",
+        "input": "{close}, :b: {or} :f:+[A]+[C]"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "Metal Massacre",
+        "input": ":qcb:+[B] {or} [D]"
+      },
+      {
+        "name": "Despair",
+        "input": ":dp:+[A] {or} [C] > [A] {or} [C]"
+      }
+    ],
+    "{desperationMoves}": [
+      {
+        "name": "Heaven's Gate",
+        "input": ":qcb::db::qcf:+[B] {or} [D]"
+      }
+    ]
+  }
+}
