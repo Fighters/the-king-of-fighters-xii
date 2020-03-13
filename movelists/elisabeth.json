@@ -1,0 +1,50 @@
+{
+  "names": {
+    "default": {
+      "roman": "Elisabeth"
+    },
+    "japan": {
+      "roman": "Elisabeth",
+      "original": "エリザベート・ブラントルシュ"
+    }
+  },
+  "images": {
+    "face": "elisabeth.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "Maniêre",
+        "input": "{close}, :b: {or} :f:+[A]+[C]"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "Étincelles",
+        "input": ":qcf:+[A] {or} [C]"
+      },
+      {
+        "name": "Rêverie Souhaiter",
+        "input": ":qcf:+[B] {or} [D]"
+      },
+      {
+        "name": "Rêverie Prier",
+        "input": ":qcb:+[B] {or} [D]"
+      },
+      {
+        "name": "Rêverie Geler",
+        "input": "[B]+[D]"
+      },
+      {
+        "name": "Mistral",
+        "input": ":hcb::f:+[A] {or} [C]"
+      }
+    ],
+    "{desperationMove}": [
+      {
+        "name": "Noble Blanche",
+        "input": ":qcf::qcf:+[A] {or} [C]"
+      }
+    ]
+  }
+}
