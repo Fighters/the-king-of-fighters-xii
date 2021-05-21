@@ -1,24 +1,26 @@
 {
-  "romans": {
-    "regions": [
-      {
-        "region": "default",
-        "roman": "The King of Fighters XII"
-      },
-      {
-        "region": "japan",
-        "roman": "The King of Fighters XII",
-        "original": "ザ・キング・オブ・ファイターズ XII"
-      }
-    ],
-    "also-known-as": ["kof xii", "xii"]
-  },
+  "names": [
+    {
+      "region": "default",
+      "roman": "The King of Fighters XII"
+    },
+    {
+      "region": "japan",
+      "roman": "The King of Fighters XII",
+      "original": "ザ・キング・オブ・ファイターズ XII"
+    }
+  ],
+  "also-known-as": [
+    "kof xii",
+    "xii",
+    "kof 12"
+  ],
   "platforms": [
     {
-      "platform": "Arcade",
+      "name": "Arcade",
       "regions": [
         {
-          "region": "Japan",
+          "name": "Japan",
           "roman": "The King of Fighters XII",
           "original": "ザ・キング・オブ・ファイターズ XII",
           "releaseDate": "04-10-2009",
@@ -26,7 +28,7 @@
           "publisher": "SNK Playmore"
         },
         {
-          "region": "United States",
+          "name": "United States",
           "roman": "The King of Fighters XII",
           "releaseDate": "04-10-2009",
           "developer": "SNK Playmore",
@@ -35,10 +37,10 @@
       ]
     },
     {
-      "platform": "PlayStation 3",
+      "name": "PlayStation 3",
       "regions": [
         {
-          "region": "Japan",
+          "name": "Japan",
           "roman": "The King of Fighters XII",
           "original": "ザ・キング・オブ・ファイターズ XII",
           "releaseDate": "07-28-2009",
@@ -47,7 +49,7 @@
           "coverFront": "ps3-jp-front.webp"
         },
         {
-          "region": "Europe",
+          "name": "Europe",
           "roman": "The King of Fighters XII",
           "releaseDate": "09-25-2009",
           "developer": "SNK Playmore",
@@ -55,7 +57,7 @@
           "coverFront": "ps3-eu-front.webp"
         },
         {
-          "region": "United States",
+          "name": "United States",
           "roman": "The King of Fighters XII",
           "releaseDate": "07-28-2009",
           "developer": "SNK Playmore",
@@ -65,10 +67,10 @@
       ]
     },
     {
-      "platform": "Xbox 360",
+      "name": "Xbox 360",
       "regions": [
         {
-          "region": "Japan",
+          "name": "Japan",
           "roman": "The King of Fighters XII",
           "original": "ザ・キング・オブ・ファイターズ XII",
           "releaseDate": "07-30-2009",
@@ -77,7 +79,7 @@
           "coverFront": "360-jp-front.webp"
         },
         {
-          "region": "Europe",
+          "name": "Europe",
           "roman": "The King of Fighters XII",
           "releaseDate": "09-25-2009",
           "developer": "SNK Playmore",
@@ -85,301 +87,12 @@
           "coverFront": "360-eu-front.webp"
         },
         {
-          "region": "United States",
+          "name": "United States",
           "roman": "The King of Fighters XII",
           "releaseDate": "07-24-2009",
           "developer": "SNK Playmore",
           "publisher": "Ignition Entertainment",
           "coverFront": "360-us-front.webp"
-        }
-      ]
-    }
-  ],
-  "characters": [
-    {
-      "regions": [
-        {
-          "region": "default",
-          "roman": "Benimaru Nikaido"
-        },
-        {
-          "region": "japan",
-          "roman": "Benimaru Nikaido",
-          "original": "二階堂 紅丸"
-        }
-      ]
-    },
-    {
-      "regions": [
-        {
-          "region": "default",
-          "roman": "Terry Bogard"
-        },
-        {
-          "region": "japan",
-          "roman": "Terry Bogard",
-          "original": "テリー・ボガード"
-        }
-      ]
-    },
-    {
-      "regions": [
-        {
-          "region": "default",
-          "roman": "Joe Higashi"
-        },
-        {
-          "region": "japan",
-          "roman": "Joe Higashi",
-          "original": "ジョー・ヒガシ"
-        }
-      ]
-    },
-    {
-      "regions": [
-        {
-          "region": "default",
-          "roman": "Ryo Sakazaki"
-        },
-        {
-          "region": "japan",
-          "roman": "Ryo Sakazaki",
-          "original": "リョウ・サカザキ"
-        }
-      ]
-    },
-    {
-      "regions": [
-        {
-          "region": "default",
-          "roman": "Robert Garcia"
-        },
-        {
-          "region": "japan",
-          "roman": "Robert Garcia",
-          "original": "ロバート・ガルシア"
-        }
-      ]
-    },
-    {
-      "regions": [
-        {
-          "region": "default",
-          "roman": "Ralf Jones"
-        },
-        {
-          "region": "japan",
-          "roman": "Ralf Jones",
-          "original": "ラルフ・ジョーンズ"
-        }
-      ]
-    },
-    {
-      "regions": [
-        {
-          "region": "default",
-          "roman": "Clark Still"
-        },
-        {
-          "region": "japan",
-          "roman": "Clark Still",
-          "original": "クラーク・スティル"
-        }
-      ]
-    },
-    {
-      "regions": [
-        {
-          "region": "default",
-          "roman": "Athena Asamiya"
-        },
-        {
-          "region": "japan",
-          "roman": "Athena Asamiya",
-          "original": "麻宮 アテナ"
-        }
-      ]
-    },
-    {
-      "regions": [
-        {
-          "region": "default",
-          "roman": "Kim Kaphwan"
-        },
-        {
-          "region": "japan",
-          "roman": "Kim Kaphwan",
-          "original": "キム・カッファン"
-        }
-      ]
-    },
-    {
-      "regions": [
-        {
-          "region": "default",
-          "roman": "Kyo Kusanagi"
-        },
-        {
-          "region": "japan",
-          "roman": "Kyo Kusanagi",
-          "original": "草薙 京"
-        }
-      ]
-    },
-    {
-      "regions": [
-        {
-          "region": "default",
-          "roman": "Iori Yagami"
-        },
-        {
-          "region": "japan",
-          "roman": "Iori Yagami",
-          "original": "八神 庵"
-        }
-      ]
-    },
-    {
-      "regions": [
-        {
-          "region": "default",
-          "roman": "Ash Crimson"
-        },
-        {
-          "region": "japan",
-          "roman": "Ash Crimson",
-          "original": "アッシュ・クリムゾン"
-        }
-      ]
-    },
-    {
-      "regions": [
-        {
-          "region": "default",
-          "roman": "Duo Lon"
-        },
-        {
-          "region": "japan",
-          "roman": "Duo Lon",
-          "original": "デュオロン"
-        }
-      ]
-    },
-    {
-      "regions": [
-        {
-          "region": "default",
-          "roman": "Shen Woo"
-        },
-        {
-          "region": "japan",
-          "roman": "Shen Woo",
-          "original": "シェン・ウー"
-        }
-      ]
-    },
-
-    {
-      "regions": [
-        {
-          "region": "default",
-          "roman": "Elisabeth Blanctorche"
-        },
-        {
-          "region": "japan",
-          "roman": "Elisabeth Blanctorche",
-          "original": "エリザベート・ブラントルシュ"
-        }
-      ]
-    },
-    {
-      "regions": [
-        {
-          "region": "default",
-          "roman": "Sie Kensou"
-        },
-        {
-          "region": "japan",
-          "roman": "Sie Kensou",
-          "original": "椎 拳崇"
-        }
-      ]
-    },
-    {
-      "regions": [
-        {
-          "region": "default",
-          "roman": "Leona Heidern"
-        },
-        {
-          "region": "japan",
-          "roman": "Leona Heidern",
-          "original": "レオナ・ハイデルン"
-        }
-      ]
-    },
-    {
-      "regions": [
-        {
-          "region": "default",
-          "roman": "Chin Gentsai"
-        },
-        {
-          "region": "japan",
-          "roman": "Chin Gentsai",
-          "original": "鎮 元斎"
-        }
-      ]
-    },
-    {
-      "regions": [
-        {
-          "region": "default",
-          "roman": "Goro Daimon"
-        },
-        {
-          "region": "japan",
-          "roman": "Goro Daimon",
-          "original": "大門 五郎"
-        }
-      ]
-    },
-    {
-      "regions": [
-        {
-          "region": "default",
-          "roman": "Joe Higashi"
-        },
-        {
-          "region": "japan",
-          "roman": "Joe Higashi",
-          "original": "ジョー・ヒガシ"
-        }
-      ]
-    },
-    {
-      "regions": [
-        {
-          "region": "default",
-          "roman": "Mature"
-        },
-        {
-          "region": "japan",
-          "roman": "Mature",
-          "original": "マチュア"
-        }
-      ]
-    },
-    {
-      "regions": [
-        {
-          "region": "default",
-          "roman": "Raiden"
-        },
-        {
-          "region": "japan",
-          "roman": "Raiden",
-          "original": "ライデン"
         }
       ]
     }
